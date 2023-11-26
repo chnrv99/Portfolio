@@ -29,9 +29,9 @@ export default function Footer() {
             </div >
             <div className="container text-center ">
 
-                {"© 2023 CYSCOM All rights reserved"}
-                <br />
-                {"    CYBERSECURITY STUDENT COMMUNITY"}
+                {"© 2023 Nishanth All rights reserved"}
+                
+                
             </div>
             <br />
      
