@@ -5,7 +5,7 @@ type Props = {}
 
 export default function About({ }: Props) {
     return (
-        <div className="container flex lg:flex-row sm:flex-col text-slate-300">
+        <div className="container flex lg:flex-row sm:flex-col text-slate-500">
             <div className="container ">
                 <Image src={image1} width={400} height={400} className='rounded-md justify-center' alt="Picture of the author" />
             </div>
