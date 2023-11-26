@@ -27,7 +27,7 @@ export default function Footer() {
 
 
             </div >
-            <div className="container text-center ">
+            <div className="container text-center text-slate-400 ">
 
                 {"© 2023 Nishanth All rights reserved"}
                 
