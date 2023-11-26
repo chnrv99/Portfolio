@@ -5,7 +5,7 @@ type Props = {}
 
 export default function About({ }: Props) {
     return (
-        <div className="container flex lg:flex-row sm:flex-col text-white">
+        <div className="container flex lg:flex-row sm:flex-col text-slate-300">
             <div className="container ">
                 <Image src={image1} width={400} height={400} className='rounded-md justify-center' alt="Picture of the author" />
             </div>
@@ -50,17 +50,17 @@ export default function About({ }: Props) {
                     </div>
                 </div>
 
-                <h1 className='mt-6'>Title 1</h1>
-                <p className=' basis-1/3 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora omnis ab aliquid at corrupti minima laboriosam quod possimus culpa repellendus earum sequi ipsa pariatur odit, molestias cumque est sint voluptatibus ipsam consequuntur rem temporibus ducimus laborum? Iusto, facere consequatur!</p>
+                
+                <p className=' basis-1/4 mt-6 '>The passion I have towards technology, has bought me where I am now. From building and integrating full stack apps, running DevOps, and secure code analysis, I have pushed myself in every aspect possible for the benefit of the company or project I have worked upon.</p>
 
-                <h1 className='mt-6'>Title 1</h1>
-                <p className="basis-1/6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, iste suscipit. Autem magnam est laudantium! Molestias nostrum nisi quia possimus eum blanditiis dolor aspernatur expedita ipsum. Voluptates sint impedit, debitis accusantium nobis, dolorum natus ab aliquid alias laboriosam unde aliquam!</p>
+                
+                <p className="basis-1/4 mt-6 ">I also conduct events, one notable mention is where I spoke about Azure Functions and App Service integration through VSCode virtually in front of 60+ members and receieved positive responses. Our club conducted many events, where I did some major contributions from dev till management.</p>
 
-                <h1 className='mt-6'>Title 1</h1>
-                <p className="basis-1/6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, iste suscipit. Autem magnam est laudantium! Molestias nostrum nisi quia possimus eum blanditiis dolor aspernatur expedita ipsum. Voluptates sint impedit, debitis accusantium nobis, dolorum natus ab aliquid alias laboriosam unde aliquam!</p>
+                
+                <p className="basis-1/4 mt-6">And I like to hack stuff! I am into HackTheBox and HackerOne-CTFs and constantly improving myself there.</p>
 
-                <h1 className='mt-6'>Title 1</h1>
-                <p className="basis-1/6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, iste suscipit. Autem magnam est laudantium! Molestias nostrum nisi quia possimus eum blanditiis dolor aspernatur expedita ipsum. Voluptates sint impedit, debitis accusantium nobis, dolorum natus ab aliquid alias laboriosam unde aliquam!</p>
+                
+                <p className="basis-1/4 mt-6 ">I am 2X Microsoft Azure Certified{"(AZ-900 and AI-900)"}, completed Google Cloud Practitioner Course(7-8 badges), and also won a national level hackathon organised by Computer Society of India!</p>
 
                 
 
