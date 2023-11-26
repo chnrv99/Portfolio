@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Particles from '@/components/Particles'
@@ -21,6 +22,7 @@ export default function Home() {
         </div>
         
       </div>
+      <Footer />
 
       
 
