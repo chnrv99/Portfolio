@@ -57,7 +57,7 @@ export default function About({ }: Props) {
                 <p className="basis-1/4 mt-6 ">I also conduct events, one notable mention is where I spoke about Azure Functions and App Service integration through VSCode virtually in front of 60+ members and receieved positive responses. Our club conducted many events, where I did some major contributions from dev till management.</p>
 
                 
-                <p className="basis-1/4 mt-6">And I like to hack stuff! I am into HackTheBox and HackerOne-CTFs and constantly improving myself there.</p>
+                <p className="basis-1/4 mt-6">And as a cybersec enthuiast, I like to hack stuff! I am into HackTheBox and HackerOne-CTFs and constantly improving myself there. And I have contributed to open source projects, such as The Tor Project</p>
 
                 
                 <p className="basis-1/4 mt-6 ">I am 2X Microsoft Azure Certified{"(AZ-900 and AI-900)"}, completed Google Cloud Practitioner Course(7-8 badges), and also won a national level hackathon organised by Computer Society of India!</p>
