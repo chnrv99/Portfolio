@@ -35,10 +35,10 @@ export default function Navbar() {
 							About
 						</Link>
 						<Link
-							href="/contact"
+							href="#"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Contact
+							Projects
 						</Link>
 					</div>
 
