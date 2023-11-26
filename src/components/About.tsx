@@ -14,37 +14,37 @@ export default function About({ }: Props) {
                     <div className="flex flex-row">
                         <h1 className='  flex flex-col basis-1/4'>
                             <div className='text-3xl font-bold bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text'>
-                                Hi1
+                                4+
                             </div>
                             <div className=''>
-                                Hi2
+                                Months of Work Experience
                             </div>
 
                         </h1>
                         <h1 className='  flex flex-col basis-1/4'>
                             <div className='text-3xl font-bold bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text'>
-                                Hi1
+                                750+
                             </div>
                             <div>
-                                Hi2
+                                Contributions in GitHub
                             </div>
 
                         </h1>
                         <h1 className='  flex flex-col basis-1/4'>
                             <div className='text-3xl font-bold bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text'>
-                                Hi1
+                                Hacker
                             </div>
                             <div>
-                                Hi2
+                                Rank in HackTheBox
                             </div>
 
                         </h1>
                         <h1 className='  flex flex-col basis-1/4'>
                             <div className='text-3xl font-bold bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text'>
-                                Hi1
+                                Beta
                             </div>
                             <div>
-                                Hi2
+                                Microsoft Learn Student Ambassador
                             </div>
                         </h1>
                     </div>

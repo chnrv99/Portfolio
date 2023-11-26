@@ -10,22 +10,27 @@ import Image from 'next/image'
 export default function Home() {
 
     return (
-        <div className='flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl  bg-black text-foreground '>
-
+        <>
             <Navbar />
-            <div className='flex items-center justify-center'>
-                <div className='self-center'>
-                    <Particles />
-                    <About />
-                    <Particles />
+            <div className='flex flex-col items-center justify-center  overflow-hidden bg-gradient-to-tl  bg-black text-foreground '>
+
+
+                <div className='flex items-center justify-center'>
+                    <div className='self-center'>
+                        <Particles />
+                        <h1 className="text-3xl bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text font-bold  text-center m-10">About Me{"!"}</h1>
+                        <About />
+                        <Particles />
+                    </div>
+
                 </div>
+                <Footer />
+                
+
+
+
 
             </div>
-            <Footer />
-
-
-
-
-        </div>
+        </>
     )
 }
