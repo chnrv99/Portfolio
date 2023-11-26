@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div className='border-t-2 border-white'>
             <div className="flex border-spacing-1 bg-blend-color-dodge font-light align-middle justify-center">
-                <footer className=" text-white p-6">
+                <footer className=" text-white pt-2">
                     <div className="flex justify-center items-center">
                         <div className="container mx-auto ">
                             Connect:
