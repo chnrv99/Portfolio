@@ -7,6 +7,7 @@ import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Navbar from "@/components/Navbar";
 import Particles from "@/components/Particles";
+import Footer from "@/components/Footer";
 
 
 
@@ -32,7 +33,7 @@ export default function Home() {
           <Projects />
           <Particles />
         </div>
-
+      <Footer />
       </div>
     </>
 
