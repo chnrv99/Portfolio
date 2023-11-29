@@ -41,9 +41,9 @@ export default function Experience({ className, ...props }: CardProps) {
                             <div className="flex justify-between">
                                 <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Application Developer</CardTitle>
                                 <CardDescription className="lg:flex lg:flex-row sm:flex-col md:flex-col">
-                                    <Badge className="lg:mr-2 mb-2 bg-red-200">MERN</Badge>
-                                    <Badge className="lg:mr-2 mb-2 bg-blue-200">AWS</Badge>
-                                    <Badge className="lg:mr-2 mb-2 bg-violet-200">git</Badge>
+                                    <Badge className="mr-2 mb-2 bg-red-200">MERN</Badge>
+                                    <Badge className="mr-2 mb-2 bg-blue-200">AWS</Badge>
+                                    <Badge className="mr-2 mb-2 bg-violet-200">git</Badge>
                                 </CardDescription>
 
                             </div>
@@ -106,9 +106,9 @@ export default function Experience({ className, ...props }: CardProps) {
                                 <div className="flex justify-between">
                                     <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Student Ambassador</CardTitle>
                                     <CardDescription className="lg:flex lg:flex-row sm:flex-col md:flex-col">
-                                        <Badge className="lg:mr-2 mb-2 bg-slate-200">Open source</Badge>
-                                        <Badge className="lg:mr-2 mb-2 bg-green-200">Azure</Badge>
-                                        <Badge className="lg:mr-2 mb-2 bg-orange-200">Flask</Badge>
+                                        <Badge className="mr-2 mb-2 bg-slate-200">Open source</Badge>
+                                        <Badge className="mr-2 mb-2 bg-green-200">Azure</Badge>
+                                        <Badge className="mr-2 mb-2 bg-orange-200">Flask</Badge>
                                         
                                     </CardDescription>
 
@@ -171,10 +171,10 @@ export default function Experience({ className, ...props }: CardProps) {
                                 <div className="flex justify-between">
                                     <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Interim Dev Lead</CardTitle>
                                     <CardDescription className="sm:hidden md:hidden lg:flex lg:flex-row">
-                                        <Badge className="lg:mr-2 mb-2 bg-amber-200">Next.js</Badge>
-                                        <Badge className="lg:mr-2 mb-2 bg-lime-200">MERN</Badge>
-                                        <Badge className="lg:mr-2 mb-2 bg-emerald-200">Azure</Badge>
-                                        <Badge className="lg:mr-2 mb-2 bg-indigo-200">Hacking</Badge>
+                                        <Badge className="mr-2 mb-2 bg-amber-200">Next.js</Badge>
+                                        <Badge className="mr-2 mb-2 bg-lime-200">MERN</Badge>
+                                        <Badge className="mr-2 mb-2 bg-emerald-200">Azure</Badge>
+                                        <Badge className="mr-2 mb-2 bg-indigo-200">Hacking</Badge>
                                     </CardDescription>
 
                                 </div>
