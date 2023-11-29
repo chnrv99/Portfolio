@@ -11,6 +11,7 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 import { Switch } from "@/components/ui/switch"
+import { Badge } from "./ui/badge"
 
 const notifications = [
     {
@@ -36,11 +37,19 @@ export default function Experience({ className, ...props }: CardProps) {
                 <div className="container flex-auto ">
                     <Card className={cn("w-auto h-auto", className)} {...props}>
                         <CardHeader>
-                            <CardTitle>Notifications</CardTitle>
-                            <CardDescription>You have 3 unread messages.</CardDescription>
+                            <div className="flex justify-between">
+                                <CardTitle className="flex">Notifications</CardTitle>
+                                <CardDescription className="flex">
+                                    <Badge className="mr-2">New</Badge>
+                                    <Badge className="mr-2">New</Badge>
+                                    <Badge className="mr-2">New</Badge>
+                                    <Badge className="mr-2">New</Badge>
+                                </CardDescription>
+
+                            </div>
                         </CardHeader>
                         <CardContent className="grid gap-4">
-                            
+
                             <div>
                                 {notifications.map((notification, index) => (
                                     <div
@@ -61,7 +70,7 @@ export default function Experience({ className, ...props }: CardProps) {
                             </div>
                         </CardContent>
                         <CardFooter>
-                            
+
                         </CardFooter>
                     </Card>
                 </div>
@@ -70,11 +79,19 @@ export default function Experience({ className, ...props }: CardProps) {
                     <div className="container flex-auto">
                         <Card className={cn("w-auto h-auto", className)} {...props}>
                             <CardHeader>
-                                <CardTitle className="">Notifications</CardTitle>
-                                <CardDescription className="flex flex-row-reverse">You have 3 unread messages.</CardDescription>
+                                <div className="flex justify-between">
+                                    <CardTitle className="flex">Notifications</CardTitle>
+                                    <CardDescription className="flex">
+                                        <Badge className="mr-2">New</Badge>
+                                        <Badge className="mr-2">New</Badge>
+                                        <Badge className="mr-2">New</Badge>
+                                        <Badge className="mr-2">New</Badge>
+                                    </CardDescription>
+
+                                </div>
                             </CardHeader>
                             <CardContent className="grid gap-4">
-                                
+
                                 <div>
                                     {notifications.map((notification, index) => (
                                         <div
@@ -95,7 +112,7 @@ export default function Experience({ className, ...props }: CardProps) {
                                 </div>
                             </CardContent>
                             <CardFooter>
-                                
+
                             </CardFooter>
                         </Card>
                     </div>
@@ -103,11 +120,19 @@ export default function Experience({ className, ...props }: CardProps) {
                     <div className="container flex-auto">
                         <Card className={cn("w-auto h-auto", className)} {...props}>
                             <CardHeader>
-                                <CardTitle>Notifications</CardTitle>
-                                <CardDescription>You have 3 unread messages.</CardDescription>
+                                <div className="flex justify-between">
+                                    <CardTitle className="flex">Notifications</CardTitle>
+                                    <CardDescription className="flex">
+                                        <Badge className="mr-2">New</Badge>
+                                        <Badge className="mr-2">New</Badge>
+                                        <Badge className="mr-2">New</Badge>
+                                        <Badge className="mr-2">New</Badge>
+                                    </CardDescription>
+
+                                </div>
                             </CardHeader>
                             <CardContent className="grid gap-4">
-                                
+
                                 <div>
                                     {notifications.map((notification, index) => (
                                         <div
@@ -128,7 +153,7 @@ export default function Experience({ className, ...props }: CardProps) {
                                 </div>
                             </CardContent>
                             <CardFooter>
-                                
+
                             </CardFooter>
                         </Card>
                     </div>
