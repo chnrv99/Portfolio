@@ -30,7 +30,7 @@ export default function Navbar() {
 					<div className="flex justify-between gap-8">
 						<Link
 							href="/about"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
+							className="duration-200 text-zinc-400 hover:text-zinc-100 p-2"
 						>
 							About
 						</Link>

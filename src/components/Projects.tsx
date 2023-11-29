@@ -14,20 +14,6 @@ import { Switch } from "@/components/ui/switch"
 import { Badge } from "./ui/badge"
 import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons"
 
-const notifications = [
-    {
-        title: "Your call has been confirmed.",
-        description: "1 hour ago",
-    },
-    {
-        title: "You have a new message!",
-        description: "1 hour ago",
-    },
-    {
-        title: "Your subscription is expiring soon!",
-        description: ``,
-    },
-]
 
 type CardProps = React.ComponentProps<typeof Card>
 
