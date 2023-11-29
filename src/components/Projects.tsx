@@ -20,11 +20,11 @@ type CardProps = React.ComponentProps<typeof Card>
 export default function Projects({ className, ...props }: CardProps) {
     return (
         <>
-            <div className=" flex flex-row items-center">
+            <div className="lg:flex lg:flex-row sm:flex sm:flex-col items-center ">
 
 
-                <div className="mr-4 ">
-                    <div className="container flex-auto">
+                <div className="lg:mr-4 ">
+                    <div className="lg:container flex-auto">
                         <Card className={cn("w-auto h-auto  hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                             <CardHeader>
                                 <div className="flex justify-between">
@@ -91,9 +91,9 @@ export default function Projects({ className, ...props }: CardProps) {
                     </div>
                     <br />
 
-                    <div className="flex">
+                    <div className="lg:flex lg:flex-row md:flex-col">
 
-                        <div className="container flex-auto ">
+                        <div className="lg:container flex-auto ">
                             <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                                 <CardHeader>
                                     <div className="flex justify-between">
@@ -160,7 +160,7 @@ export default function Projects({ className, ...props }: CardProps) {
                         </div>
                         <br />
 
-                        <div className="container flex-auto ">
+                        <div className="lg:container flex-auto ">
                             <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                                 <CardHeader>
                                     <div className="flex justify-between">
@@ -229,7 +229,7 @@ export default function Projects({ className, ...props }: CardProps) {
 
                     <br />
 
-                    <div className="container flex-auto ">
+                    <div className="lg:container flex-auto ">
                         <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                             <CardHeader>
                                 <div className="flex justify-between">
