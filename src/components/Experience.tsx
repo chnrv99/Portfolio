@@ -33,7 +33,7 @@ type CardProps = React.ComponentProps<typeof Card>
 export default function Experience({ className, ...props }: CardProps) {
     return (
         <>
-            <div className="container flex flex-row items-center">
+            <div className=" flex flex-row items-center">
                 <div className="container flex-auto ">
                     <Card className={cn("w-auto h-auto", className)} {...props}>
                         <CardHeader>

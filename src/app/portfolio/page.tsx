@@ -20,12 +20,16 @@ export default function Home() {
         <br />
         <br />
         <div className="container">
+          
 
           <Experience />
         </div>
+        <br />
+        <br />
         <div className="container">
+         
 
-          {/* <Projects /> */}
+          <Projects />
         </div>
 
       </div>
