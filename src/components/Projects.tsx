@@ -77,10 +77,10 @@ export default function Projects({ className, ...props }: CardProps) {
                                     </div>
 
                                     <p className="text-sm text-muted-foreground">
-                                        <Badge className="mr-2 md:mb-2 bg-slate-200">Node.js</Badge>
-                                        <Badge className="mr-2 md:mb-2 bg-gray-200">Express</Badge>
-                                        <Badge className="mr-2 md:mb-2 bg-violet-200">Azure</Badge>
-                                        <Badge className="mr-2 md:mb-2 bg-sky-200">JWT</Badge>
+                                        <Badge className="mr-2 mb-2 bg-slate-200">Node.js</Badge>
+                                        <Badge className="mr-2 mb-2 bg-gray-200">Express</Badge>
+                                        <Badge className="mr-2 mb-2 bg-violet-200">Azure</Badge>
+                                        <Badge className="mr-2 mb-2 bg-sky-200">JWT</Badge>
                                     </p>
                                 </div>
                             </CardContent>
@@ -146,10 +146,10 @@ export default function Projects({ className, ...props }: CardProps) {
                                         </div>
 
                                         <p className="text-sm text-muted-foreground">
-                                            <Badge className="mr-2 md:mb-2 bg-green-200">Flask</Badge>
-                                            <Badge className="mr-2 md:mb-2 bg-pink-200">Tensorflow</Badge>
-                                            <Badge className="mr-2 md:mb-2 bg-yellow-200">Azure</Badge>
-                                            <Badge className="mr-2 md:mb-2 bg-cyan-200">News APIs</Badge>
+                                            <Badge className="mr-2 mb-2 bg-green-200">Flask</Badge>
+                                            <Badge className="mr-2 mb-2 bg-pink-200">Tensorflow</Badge>
+                                            <Badge className="mr-2 mb-2 bg-yellow-200">Azure</Badge>
+                                            <Badge className="mr-2 mb-2 bg-cyan-200">News APIs</Badge>
                                         </p>
                                     </div>
                                 </CardContent>
@@ -213,10 +213,10 @@ export default function Projects({ className, ...props }: CardProps) {
                                         </div>
 
                                         <p className="text-sm text-muted-foreground">
-                                            <Badge className="mr-2 md:mb-2 bg-red-200">Python</Badge>
-                                            <Badge className="mr-2 md:mb-2 bg-indigo-200">Requests</Badge>
-                                            <Badge className="mr-2 md:mb-2 bg-purple-200">Controller</Badge>
-                                            <Badge className="mr-2 md:mb-2 bg-fuchsia-200">Tensorflow</Badge>
+                                            <Badge className="mr-2 mb-2 bg-red-200">Python</Badge>
+                                            <Badge className="mr-2 mb-2 bg-indigo-200">Requests</Badge>
+                                            <Badge className="mr-2 mb-2 bg-purple-200">Controller</Badge>
+                                            <Badge className="mr-2 mb-2 bg-fuchsia-200">Tensorflow</Badge>
                                         </p>
                                     </div>
                                 </CardContent>
@@ -282,10 +282,10 @@ export default function Projects({ className, ...props }: CardProps) {
                                     </div>
 
                                     <p className="text-sm text-muted-foreground">
-                                        <Badge className="mr-2 md:mb-2 bg-rose-200">Next.js</Badge>
-                                        <Badge className="mr-2 md:mb-2 bg-yellow-200">Next-Auth</Badge>
-                                        <Badge className="mr-2 md:mb-2 bg-zinc-200">ShadCN-UI</Badge>
-                                        <Badge className="mr-2 md:mb-2 bg-gray-200">TanStack</Badge>
+                                        <Badge className="mr-2 mb-2 bg-rose-200">Next.js</Badge>
+                                        <Badge className="mr-2 mb-2 bg-yellow-200">Next-Auth</Badge>
+                                        <Badge className="mr-2 mb-2 bg-zinc-200">ShadCN-UI</Badge>
+                                        <Badge className="mr-2 mb-2 bg-gray-200">TanStack</Badge>
                                     </p>
                                 </div>
                             </CardContent>
