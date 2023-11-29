@@ -6,6 +6,7 @@ import Image from "next/image";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Navbar from "@/components/Navbar";
+import Particles from "@/components/Particles";
 
 
 
@@ -15,21 +16,21 @@ export default function Home() {
       <Navbar />
       <div className="flex flex-col items-center justify-center  overflow-hidden bg-gradient-to-tl  bg-black text-foreground ">
 
-        <br />
-        <br />
-        <br />
-        <br />
+       
         <div className="container">
+        <Particles />
+        <h1 className="text-3xl bg-gradient-to-r from-blue-900 to-violet-100 text-transparent bg-clip-text font-bold  text-center border-b-2 border-violet-200 mb-28 pb-4">Experience{"!"}</h1>
+      
           
-
           <Experience />
+        <Particles />
         </div>
-        <br />
-        <br />
         <div className="container">
+        <h1 className="text-3xl bg-gradient-to-r from-blue-900 to-violet-100 text-transparent bg-clip-text font-bold  text-center border-b-2 border-violet-200 mb-28 pb-4">Projects{"!"}</h1>
          
-
+       
           <Projects />
+          <Particles />
         </div>
 
       </div>
