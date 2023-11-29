@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/card"
 import { Switch } from "@/components/ui/switch"
 import { Badge } from "./ui/badge"
+import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons"
 
 const notifications = [
     {
@@ -24,10 +25,7 @@ const notifications = [
     },
     {
         title: "Your subscription is expiring soon!",
-        description: `<Badge className="mr-2">New</Badge>
-        <Badge className="mr-2">New</Badge>
-        <Badge className="mr-2">New</Badge>
-        <Badge className="mr-2">New</Badge>`,
+        description: ``,
     },
 ]
 
@@ -39,14 +37,14 @@ export default function Projects({ className, ...props }: CardProps) {
             <div className=" flex flex-row items-center">
 
 
-                <div className="mr-6 ">
+                <div className="mr-4 ">
                     <div className="container flex-auto">
                         <Card className={cn("w-auto h-auto", className)} {...props}>
                             <CardHeader>
                                 <div className="flex justify-between">
                                     <CardTitle className="flex">Notifications</CardTitle>
                                     <CardDescription className="flex">
-
+                                        <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                     </CardDescription>
 
                                 </div>
@@ -79,7 +77,7 @@ export default function Projects({ className, ...props }: CardProps) {
                                 </div>
                             </CardContent>
                             <CardFooter>
-
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p>
                             </CardFooter>
                         </Card>
                     </div>
@@ -93,7 +91,7 @@ export default function Projects({ className, ...props }: CardProps) {
                                     <div className="flex justify-between">
                                         <CardTitle className="flex">Notifications</CardTitle>
                                         <CardDescription className="flex">
-
+                                            <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                         </CardDescription>
 
                                     </div>
@@ -126,7 +124,7 @@ export default function Projects({ className, ...props }: CardProps) {
                                     </div>
                                 </CardContent>
                                 <CardFooter>
-
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p>
                                 </CardFooter>
                             </Card>
                         </div>
@@ -138,7 +136,7 @@ export default function Projects({ className, ...props }: CardProps) {
                                     <div className="flex justify-between">
                                         <CardTitle className="flex">Notifications</CardTitle>
                                         <CardDescription className="flex">
-
+                                            <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                         </CardDescription>
 
                                     </div>
@@ -171,7 +169,7 @@ export default function Projects({ className, ...props }: CardProps) {
                                     </div>
                                 </CardContent>
                                 <CardFooter>
-
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p>
                                 </CardFooter>
                             </Card>
                         </div>
@@ -185,7 +183,7 @@ export default function Projects({ className, ...props }: CardProps) {
                                 <div className="flex justify-between">
                                     <CardTitle className="flex">Notifications</CardTitle>
                                     <CardDescription className="flex">
-
+                                        <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                     </CardDescription>
 
                                 </div>
@@ -218,7 +216,7 @@ export default function Projects({ className, ...props }: CardProps) {
                                 </div>
                             </CardContent>
                             <CardFooter>
-
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p>
                             </CardFooter>
                         </Card>
                     </div>
