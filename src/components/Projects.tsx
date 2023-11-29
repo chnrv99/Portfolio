@@ -42,7 +42,7 @@ export default function Projects({ className, ...props }: CardProps) {
                         <Card className={cn("w-auto h-auto", className)} {...props}>
                             <CardHeader>
                                 <div className="flex justify-between">
-                                    <CardTitle className="flex">Notifications</CardTitle>
+                                    <CardTitle className="flex">Zypher App</CardTitle>
                                     <CardDescription className="flex">
                                         <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                     </CardDescription>
@@ -52,32 +52,54 @@ export default function Projects({ className, ...props }: CardProps) {
                             <CardContent className="grid gap-4">
 
                                 <div>
-                                    {notifications.map((notification, index) => (
-                                        <div
-                                            key={index}
-                                            className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
-                                        >
-                                            <span className="flex h-2 w-2 translate-y-1 rounded-full bg-sky-500" />
-                                            <div className="space-y-1">
-                                                <p className="text-sm font-medium leading-none">
-                                                    {notification.title}
-                                                </p>
-                                                <p className="text-sm text-muted-foreground">
-                                                    {notification.description}
-                                                </p>
-                                            </div>
+
+                                    <div
+
+                                        className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                    >
+                                        <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                        <div className="space-y-1">
+
+                                            <p className="text-sm text-muted-foreground">
+                                               Built a fully functional app for a CTF styled event according to a complex plotline. Also built a custom admin panel which has the power to edit any team details or CTF challenge. Had over 100+ users using the app without any hiccups.
+                                            </p>
                                         </div>
-                                    ))}
+                                    </div>
+                                    <div
+
+                                        className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                    >
+                                        <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                        <div className="space-y-1">
+
+                                            <p className="text-sm text-muted-foreground">
+                                                Oversaw and helped a team of 12 people in frontend for the landing page and the game UI. Integrated the frontend with backend securely and efficiently.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div
+
+                                        className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                    >
+                                        <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                        <div className="space-y-1">
+
+                                            <p className="text-sm text-muted-foreground">
+                                                Deployed the app in Azure App service{`(Node.js-expess)`} and Static Web Apps{`(HTML-CSS)`}.
+                                            </p>
+                                        </div>
+                                    </div>
+
                                     <p className="text-sm text-muted-foreground">
-                                        <Badge className="mr-2">New</Badge>
-                                        <Badge className="mr-2">New</Badge>
-                                        <Badge className="mr-2">New</Badge>
-                                        <Badge className="mr-2">New</Badge>
+                                        <Badge className="mr-2">Node.js</Badge>
+                                        <Badge className="mr-2">Express</Badge>
+                                        <Badge className="mr-2">Azure</Badge>
+                                        <Badge className="mr-2">JWT</Badge>
                                     </p>
                                 </div>
                             </CardContent>
                             <CardFooter>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p>
+                                {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p> */}
                             </CardFooter>
                         </Card>
                     </div>
@@ -89,7 +111,7 @@ export default function Projects({ className, ...props }: CardProps) {
                             <Card className={cn("w-auto h-auto", className)} {...props}>
                                 <CardHeader>
                                     <div className="flex justify-between">
-                                        <CardTitle className="flex">Notifications</CardTitle>
+                                        <CardTitle className="flex">News Tonality App</CardTitle>
                                         <CardDescription className="flex">
                                             <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                         </CardDescription>
@@ -99,32 +121,54 @@ export default function Projects({ className, ...props }: CardProps) {
                                 <CardContent className="grid gap-4">
 
                                     <div>
-                                        {notifications.map((notification, index) => (
-                                            <div
-                                                key={index}
-                                                className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
-                                            >
-                                                <span className="flex h-2 w-2 translate-y-1 rounded-full bg-sky-500" />
-                                                <div className="space-y-1">
-                                                    <p className="text-sm font-medium leading-none">
-                                                        {notification.title}
-                                                    </p>
-                                                    <p className="text-sm text-muted-foreground">
-                                                        {notification.description}
-                                                    </p>
-                                                </div>
+
+                                        <div
+
+                                            className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                        >
+                                            <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                            <div className="space-y-1">
+
+                                                <p className="text-sm text-muted-foreground">
+                                                    An app which can sense any latest news in the wild, and can classify it into positive, negative or neutral tonality. Used 3 different news APIs to achive it.
+                                                </p>
                                             </div>
-                                        ))}
+                                        </div>
+                                        <div
+
+                                            className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                        >
+                                            <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                            <div className="space-y-1">
+
+                                                <p className="text-sm text-muted-foreground">
+                                                    Helped build a custom intuitive UI which displays the findings, built a fully functional backend which connects the UI and the ML models, and made an automated alert system which can notify the police if the news is against the goverment.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div
+
+                                            className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                        >
+                                            <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                            <div className="space-y-1">
+
+                                                <p className="text-sm text-muted-foreground">
+                                                    Integrated PowerBI for powerful analytics, and deployed it in Azure App service for the app and CosmosDB for PostgreSQL.
+                                                </p>
+                                            </div>
+                                        </div>
+
                                         <p className="text-sm text-muted-foreground">
-                                            <Badge className="mr-2">New</Badge>
-                                            <Badge className="mr-2">New</Badge>
-                                            <Badge className="mr-2">New</Badge>
-                                            <Badge className="mr-2">New</Badge>
+                                            <Badge className="mr-2">Flask</Badge>
+                                            <Badge className="mr-2">Tensorflow</Badge>
+                                            <Badge className="mr-2">Azure</Badge>
+                                            <Badge className="mr-2">News APIs</Badge>
                                         </p>
                                     </div>
                                 </CardContent>
                                 <CardFooter>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p>
+                                    {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p> */}
                                 </CardFooter>
                             </Card>
                         </div>
@@ -134,7 +178,7 @@ export default function Projects({ className, ...props }: CardProps) {
                             <Card className={cn("w-auto h-auto", className)} {...props}>
                                 <CardHeader>
                                     <div className="flex justify-between">
-                                        <CardTitle className="flex">Notifications</CardTitle>
+                                        <CardTitle className="flex">Dark Web Crawler</CardTitle>
                                         <CardDescription className="flex">
                                             <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                         </CardDescription>
@@ -144,32 +188,54 @@ export default function Projects({ className, ...props }: CardProps) {
                                 <CardContent className="grid gap-4">
 
                                     <div>
-                                        {notifications.map((notification, index) => (
-                                            <div
-                                                key={index}
-                                                className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
-                                            >
-                                                <span className="flex h-2 w-2 translate-y-1 rounded-full bg-sky-500" />
-                                                <div className="space-y-1">
-                                                    <p className="text-sm font-medium leading-none">
-                                                        {notification.title}
-                                                    </p>
-                                                    <p className="text-sm text-muted-foreground">
-                                                        {notification.description}
-                                                    </p>
-                                                </div>
+
+                                        <div
+
+                                            className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                        >
+                                            <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                            <div className="space-y-1">
+
+                                                <p className="text-sm text-muted-foreground">
+                                                    A custom built crawler, which can index 20-30 .onion sites per minute. It can classify them into drugs, weapons, CP, etc. It can also extract the links from the site and crawl them too. Made a custom dataset about 200 entries for the model.
+                                                </p>
                                             </div>
-                                        ))}
+                                        </div>
+                                        <div
+
+                                            className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                        >
+                                            <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                            <div className="space-y-1">
+
+                                                <p className="text-sm text-muted-foreground">
+                                                    Added capability to make an informative report on any website, for example, say the weapon details and price sold in the website and create a classified Word document for the same.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div
+
+                                            className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                        >
+                                            <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                            <div className="space-y-1">
+
+                                                <p className="text-sm text-muted-foreground">
+                                                    The crawler can also search for any human name in the wild{`(for human trafficking purposes)`}, and can enumerate any website given to a certain extent.
+                                                </p>
+                                            </div>
+                                        </div>
+
                                         <p className="text-sm text-muted-foreground">
-                                            <Badge className="mr-2">New</Badge>
-                                            <Badge className="mr-2">New</Badge>
-                                            <Badge className="mr-2">New</Badge>
-                                            <Badge className="mr-2">New</Badge>
+                                            <Badge className="mr-2">Python</Badge>
+                                            <Badge className="mr-2">Requests</Badge>
+                                            <Badge className="mr-2">Tensorflow</Badge>
+                                            <Badge className="mr-2">Spacy</Badge>
                                         </p>
                                     </div>
                                 </CardContent>
                                 <CardFooter>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p>
+                                    {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p> */}
                                 </CardFooter>
                             </Card>
                         </div>
@@ -181,7 +247,7 @@ export default function Projects({ className, ...props }: CardProps) {
                         <Card className={cn("w-auto h-auto", className)} {...props}>
                             <CardHeader>
                                 <div className="flex justify-between">
-                                    <CardTitle className="flex">Notifications</CardTitle>
+                                    <CardTitle className="flex">Club Management App</CardTitle>
                                     <CardDescription className="flex">
                                         <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                     </CardDescription>
@@ -191,32 +257,54 @@ export default function Projects({ className, ...props }: CardProps) {
                             <CardContent className="grid gap-4">
 
                                 <div>
-                                    {notifications.map((notification, index) => (
-                                        <div
-                                            key={index}
-                                            className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
-                                        >
-                                            <span className="flex h-2 w-2 translate-y-1 rounded-full bg-sky-500" />
-                                            <div className="space-y-1">
-                                                <p className="text-sm font-medium leading-none">
-                                                    {notification.title}
-                                                </p>
-                                                <p className="text-sm text-muted-foreground">
-                                                    {notification.description}
-                                                </p>
-                                            </div>
+
+                                    <div
+
+                                        className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                    >
+                                        <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                        <div className="space-y-1">
+
+                                            <p className="text-sm text-muted-foreground">
+                                                Built a custom app using role-based-authentication(8+ roles) and authorization. The highest priviledge user{`(admin)`} can assign task to a least priviledged user{`(member)`}, member can submit the assigned task, admin can then review the task submitted by the member and approve it.
+                                            </p>
                                         </div>
-                                    ))}
+                                    </div>
+                                    <div
+
+                                        className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                    >
+                                        <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                        <div className="space-y-1">
+
+                                            <p className="text-sm text-muted-foreground">
+                                                A neat, intuitive and powerful table, with 7 sorting capabilities is used to display the tasks assigned to the member. The member can also filter the tasks based on the status of the task.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div
+
+                                        className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                                    >
+                                        <span className="flex h-2 w-2 translate-y-1 rounded-full" />
+                                        <div className="space-y-1">
+
+                                            <p className="text-sm text-muted-foreground">
+                                                Implemented for all departments, based on the department the user belongs to, the user can view the tasks assigned to him/her. Similarly goes to the leads and core members.
+                                            </p>
+                                        </div>
+                                    </div>
+
                                     <p className="text-sm text-muted-foreground">
-                                        <Badge className="mr-2">New</Badge>
-                                        <Badge className="mr-2">New</Badge>
-                                        <Badge className="mr-2">New</Badge>
-                                        <Badge className="mr-2">New</Badge>
+                                        <Badge className="mr-2">Next.js</Badge>
+                                        <Badge className="mr-2">Next-Auth</Badge>
+                                        <Badge className="mr-2">ShadCN-UI</Badge>
+                                        <Badge className="mr-2">TanStack</Badge>
                                     </p>
                                 </div>
                             </CardContent>
                             <CardFooter>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p>
+                                {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p> */}
                             </CardFooter>
                         </Card>
                     </div>
