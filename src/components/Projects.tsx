@@ -25,10 +25,10 @@ export default function Projects({ className, ...props }: CardProps) {
 
                 <div className="mr-4 ">
                     <div className="container flex-auto">
-                        <Card className={cn("w-auto h-auto", className)} {...props}>
+                        <Card className={cn("w-auto h-auto  hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                             <CardHeader>
                                 <div className="flex justify-between">
-                                    <CardTitle className="flex">Zypher App</CardTitle>
+                                    <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Zypher App</CardTitle>
                                     <CardDescription className="flex">
                                         <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                     </CardDescription>
@@ -77,10 +77,10 @@ export default function Projects({ className, ...props }: CardProps) {
                                     </div>
 
                                     <p className="text-sm text-muted-foreground">
-                                        <Badge className="mr-2">Node.js</Badge>
-                                        <Badge className="mr-2">Express</Badge>
-                                        <Badge className="mr-2">Azure</Badge>
-                                        <Badge className="mr-2">JWT</Badge>
+                                        <Badge className="mr-2 bg-slate-200">Node.js</Badge>
+                                        <Badge className="mr-2 bg-gray-200">Express</Badge>
+                                        <Badge className="mr-2 bg-violet-200">Azure</Badge>
+                                        <Badge className="mr-2 bg-sky-200">JWT</Badge>
                                     </p>
                                 </div>
                             </CardContent>
@@ -94,10 +94,10 @@ export default function Projects({ className, ...props }: CardProps) {
                     <div className="flex">
 
                         <div className="container flex-auto ">
-                            <Card className={cn("w-auto h-auto", className)} {...props}>
+                            <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                                 <CardHeader>
                                     <div className="flex justify-between">
-                                        <CardTitle className="flex">News Tonality App</CardTitle>
+                                        <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">News Tonality App</CardTitle>
                                         <CardDescription className="flex">
                                             <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                         </CardDescription>
@@ -146,10 +146,10 @@ export default function Projects({ className, ...props }: CardProps) {
                                         </div>
 
                                         <p className="text-sm text-muted-foreground">
-                                            <Badge className="mr-2">Flask</Badge>
-                                            <Badge className="mr-2">Tensorflow</Badge>
-                                            <Badge className="mr-2">Azure</Badge>
-                                            <Badge className="mr-2">News APIs</Badge>
+                                            <Badge className="mr-2 bg-green-200">Flask</Badge>
+                                            <Badge className="mr-2 bg-pink-200">Tensorflow</Badge>
+                                            <Badge className="mr-2 bg-yellow-200">Azure</Badge>
+                                            <Badge className="mr-2 bg-cyan-200">News APIs</Badge>
                                         </p>
                                     </div>
                                 </CardContent>
@@ -161,10 +161,10 @@ export default function Projects({ className, ...props }: CardProps) {
                         <br />
 
                         <div className="container flex-auto ">
-                            <Card className={cn("w-auto h-auto", className)} {...props}>
+                            <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                                 <CardHeader>
                                     <div className="flex justify-between">
-                                        <CardTitle className="flex">Dark Web Crawler</CardTitle>
+                                        <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Dark Web Crawler</CardTitle>
                                         <CardDescription className="flex">
                                             <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                         </CardDescription>
@@ -213,10 +213,10 @@ export default function Projects({ className, ...props }: CardProps) {
                                         </div>
 
                                         <p className="text-sm text-muted-foreground">
-                                            <Badge className="mr-2">Python</Badge>
-                                            <Badge className="mr-2">Requests</Badge>
-                                            <Badge className="mr-2">Tensorflow</Badge>
-                                            <Badge className="mr-2">Spacy</Badge>
+                                            <Badge className="mr-2 bg-red-200">Python</Badge>
+                                            <Badge className="mr-2 bg-indigo-200">Requests</Badge>
+                                            <Badge className="mr-2 bg-purple-200">Controller</Badge>
+                                            <Badge className="mr-2 bg-fuchsia-200">Tensorflow</Badge>
                                         </p>
                                     </div>
                                 </CardContent>
@@ -230,10 +230,10 @@ export default function Projects({ className, ...props }: CardProps) {
                     <br />
 
                     <div className="container flex-auto ">
-                        <Card className={cn("w-auto h-auto", className)} {...props}>
+                        <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                             <CardHeader>
                                 <div className="flex justify-between">
-                                    <CardTitle className="flex">Club Management App</CardTitle>
+                                    <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Club Management App</CardTitle>
                                     <CardDescription className="flex">
                                         <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                     </CardDescription>
@@ -282,10 +282,10 @@ export default function Projects({ className, ...props }: CardProps) {
                                     </div>
 
                                     <p className="text-sm text-muted-foreground">
-                                        <Badge className="mr-2">Next.js</Badge>
-                                        <Badge className="mr-2">Next-Auth</Badge>
-                                        <Badge className="mr-2">ShadCN-UI</Badge>
-                                        <Badge className="mr-2">TanStack</Badge>
+                                        <Badge className="mr-2 bg-rose-200">Next.js</Badge>
+                                        <Badge className="mr-2 bg-yellow-200">Next-Auth</Badge>
+                                        <Badge className="mr-2 bg-zinc-200">ShadCN-UI</Badge>
+                                        <Badge className="mr-2 bg-gray-200">TanStack</Badge>
                                     </p>
                                 </div>
                             </CardContent>
