@@ -106,9 +106,9 @@ export default function Experience({ className, ...props }: CardProps) {
                                 <div className="flex justify-between">
                                     <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Student Ambassador</CardTitle>
                                     <CardDescription className="lg:flex lg:flex-row sm:flex-col md:flex-col">
-                                        <Badge className="mr-2 bg-green-200">Azure</Badge>
-                                        <Badge className="mr-2 bg-slate-200">Open source</Badge>
-                                        <Badge className="mr-2 bg-orange-200">Flask</Badge>
+                                        <Badge className="lg:mr-2 bg-slate-200">Open source</Badge>
+                                        <Badge className="lg:mr-2 bg-green-200">Azure</Badge>
+                                        <Badge className="lg:mr-2 bg-orange-200">Flask</Badge>
                                         
                                     </CardDescription>
 
