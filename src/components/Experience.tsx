@@ -34,7 +34,7 @@ type CardProps = React.ComponentProps<typeof Card>
 export default function Experience({ className, ...props }: CardProps) {
     return (
         <>
-            <div className="lg:flex lg:flex-row sm:flex sm:flex-col items-center ">
+            <div className="lg:flex lg:flex-col sm:flex sm:flex-col items-center ">
                 <div className="lg:container lg:flex-auto ">
                     <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                         <CardHeader>
@@ -99,7 +99,7 @@ export default function Experience({ className, ...props }: CardProps) {
                     </Card>
                     <br />
                 </div>
-                <div className="lg:container md:my-2">
+                <div className=" lg:flex md:my-2">
                     <div className="lg:container lg:flex-auto sm:flex-col md:flex-col md:my-2">
                         <Card className={cn("w-auto h-auto  hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                             <CardHeader>
