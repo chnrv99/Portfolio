@@ -14,7 +14,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar page_name='portfolio' />
       <div className="flex flex-col items-center justify-center  overflow-hidden bg-gradient-to-tl  bg-black text-foreground ">
 
        

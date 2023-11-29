@@ -11,7 +11,7 @@ export default function Home() {
 
     return (
         <>
-            <Navbar />
+            <Navbar page_name='about' />
             <div className='flex flex-col items-center justify-center  overflow-hidden bg-gradient-to-tl  bg-black text-foreground '>
 
 

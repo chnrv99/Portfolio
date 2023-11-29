@@ -12,7 +12,7 @@ export default function Home() {
 
       <div>
 
-        <Navbar />
+        <Navbar page_name='home' />
       </div>
       <div className='flex items-center justify-center h-screen'>
         <div className='self-center'>
