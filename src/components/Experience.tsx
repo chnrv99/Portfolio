@@ -59,7 +59,7 @@ export default function Experience({ className, ...props }: CardProps) {
                                     <span className="flex h-2 w-2 translate-y-1 rounded-full" />
                                     <div className="space-y-1">
                                         <p className="text-xl font-medium leading-none text-blue-100">
-                                            Crackube
+                                            Crackube{"(Internship)"}
                                         </p>
                                         
                                     </div>
@@ -125,7 +125,7 @@ export default function Experience({ className, ...props }: CardProps) {
                                         <span className="flex h-2 w-2 translate-y-1 rounded-full" />
                                         <div className="">
                                             <p className="text-xl font-medium leading-none text-blue-100">
-                                                Microsoft
+                                                Microsoft{"(Volunteering)"}
                                             </p>
                                             
                                         </div>
@@ -190,7 +190,7 @@ export default function Experience({ className, ...props }: CardProps) {
                                         <span className="flex h-2 w-2 translate-y-1 rounded-full" />
                                         <div className="space-y-1">
                                             <p className="text-xl font-medium leading-none text-blue-100">
-                                                CYSCOM VIT
+                                                CYSCOM VIT{"(Club)"}
                                             </p>
                                             
                                         </div>
