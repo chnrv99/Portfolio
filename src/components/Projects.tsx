@@ -30,7 +30,7 @@ export default function Projects({ className, ...props }: CardProps) {
                             <Card className={cn("w-auto h-auto  hover:bg-slate-900 hover:text-slate-200 transition-colors", className)}  {...props}>
                                 <CardHeader>
                                     <div className="flex justify-between">
-                                        <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Zypher App</CardTitle>
+                                        <CardTitle className="flex bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text">Zypher App</CardTitle>
                                         <CardDescription className="flex">
                                             <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                         </CardDescription>
@@ -100,7 +100,7 @@ export default function Projects({ className, ...props }: CardProps) {
                             <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                                 <CardHeader>
                                     <div className="flex justify-between">
-                                        <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">News Tonality App</CardTitle>
+                                        <CardTitle className="flex bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text">News Tonality App</CardTitle>
                                         <CardDescription className="flex">
                                             <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                         </CardDescription>
@@ -168,7 +168,7 @@ export default function Projects({ className, ...props }: CardProps) {
                                 <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                                     <CardHeader>
                                         <div className="flex justify-between">
-                                            <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Dark Web Crawler</CardTitle>
+                                            <CardTitle className="flex bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text">Dark Web Crawler</CardTitle>
                                             <CardDescription className="flex">
                                                 <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                             </CardDescription>
@@ -240,7 +240,7 @@ export default function Projects({ className, ...props }: CardProps) {
                             <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                                 <CardHeader>
                                     <div className="flex justify-between">
-                                        <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Club Management App</CardTitle>
+                                        <CardTitle className="flex bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text">Club Management App</CardTitle>
                                         <CardDescription className="flex">
                                             <GitHubLogoIcon width={25} height={25} className="mx-2" />
                                         </CardDescription>

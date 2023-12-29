@@ -20,14 +20,14 @@ export default function Home() {
        
         <div className="container">
         <Particles />
-        <h1 className="text-3xl bg-gradient-to-r from-blue-900 to-violet-100 text-transparent bg-clip-text font-bold  text-center border-b-2 border-violet-200 mb-28 pb-4">Experience{"!"}</h1>
+        <h1 className="text-3xl bg-gradient-to-r from-blue-600 to-violet-100 text-transparent bg-clip-text font-bold  text-center border-b-2 border-violet-200 mb-28 pb-4">Experience{"!"}</h1>
       
           
           <Experience />
         <Particles />
         </div>
         <div className="container">
-        <h1 className="text-3xl bg-gradient-to-r from-blue-900 to-violet-100 text-transparent bg-clip-text font-bold  text-center border-b-2 border-violet-200 mb-28 pb-4">Projects{"!"}</h1>
+        <h1 className="text-3xl bg-gradient-to-r from-blue-600 to-violet-100 text-transparent bg-clip-text font-bold  text-center border-b-2 border-violet-200 mb-28 pb-4">Projects{"!"}</h1>
          
        
           <Projects />

@@ -82,7 +82,7 @@ export default function About({ }: Props) {
                 <div className="container flex-col  md:flex-row sm:flex-row  basis-1/3">
                     <div className="flex flex-row">
                         <h1 className='  flex flex-col basis-1/4'>
-                            <div className='text-3xl font-bold bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text'>
+                            <div className='text-3xl font-bold bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text'>
                                 4+
                             </div>
                             <div className=''>
@@ -91,7 +91,7 @@ export default function About({ }: Props) {
 
                         </h1>
                         <h1 className='  flex flex-col basis-1/4'>
-                            <div className='text-3xl font-bold bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text'>
+                            <div className='text-3xl font-bold bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text'>
                                 750+
                             </div>
                             <div>
@@ -100,7 +100,7 @@ export default function About({ }: Props) {
 
                         </h1>
                         <h1 className='  flex flex-col basis-1/4'>
-                            <div className='text-3xl font-bold bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text'>
+                            <div className='text-3xl font-bold bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text'>
                                 Hacker
                             </div>
                             <div>
@@ -109,7 +109,7 @@ export default function About({ }: Props) {
 
                         </h1>
                         <h1 className='  flex flex-col basis-1/4 pr-3'>
-                            <div className='text-3xl font-bold bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text'>
+                            <div className='text-3xl font-bold bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text'>
                                 Beta
                             </div>
                             <div>

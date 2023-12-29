@@ -18,7 +18,7 @@ export default function Home() {
                 <div className='flex items-center justify-center'>
                     <div className='self-center'>
                         <Particles />
-                        <h1 className="text-3xl bg-gradient-to-r from-blue-900 to-violet-100 text-transparent bg-clip-text font-bold  text-center border-b-2 border-violet-200 mb-28 pb-4">About Me{"!"}</h1>
+                        <h1 className="text-3xl bg-gradient-to-r from-blue-500 to-violet-100 text-transparent bg-clip-text font-bold  text-center border-b-2 border-violet-200 mb-28 pb-4">About Me{"!"}</h1>
 
                         <About />
                         <Particles />

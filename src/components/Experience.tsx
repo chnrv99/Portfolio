@@ -39,7 +39,7 @@ export default function Experience({ className, ...props }: CardProps) {
                     <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                         <CardHeader>
                             <div className="flex justify-between">
-                                <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Application Developer</CardTitle>
+                                <CardTitle className="flex bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text">Application Developer</CardTitle>
                                 <CardDescription className="lg:flex lg:flex-row sm:flex-col md:flex-col">
                                     <Badge className="mr-2 mb-2 bg-red-200">MERN</Badge>
                                     <Badge className="mr-2 mb-2 bg-blue-200">AWS</Badge>
@@ -104,7 +104,7 @@ export default function Experience({ className, ...props }: CardProps) {
                         <Card className={cn("w-auto h-auto  hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                             <CardHeader>
                                 <div className="flex justify-between">
-                                    <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Student Ambassador</CardTitle>
+                                    <CardTitle className="flex bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text">Student Ambassador</CardTitle>
                                     <CardDescription className="lg:flex lg:flex-row sm:flex-col md:flex-col">
                                         <Badge className="mr-2 mb-2 bg-slate-200">Open source</Badge>
                                         <Badge className="mr-2 mb-2 bg-green-200">Azure</Badge>
@@ -169,7 +169,7 @@ export default function Experience({ className, ...props }: CardProps) {
                         <Card className={cn("w-auto h-auto  hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                             <CardHeader className="">
                                 <div className="flex justify-between">
-                                    <CardTitle className="flex bg-gradient-to-r from-blue-900 to-blue-300 text-transparent bg-clip-text">Interim Dev Lead</CardTitle>
+                                    <CardTitle className="flex bg-gradient-to-r from-blue-400 to-blue-300 text-transparent bg-clip-text">Interim Dev Lead</CardTitle>
                                     <CardDescription className="sm:hidden md:hidden lg:flex lg:flex-row">
                                         <Badge className="mr-2 mb-2 bg-amber-200">Next.js</Badge>
                                         <Badge className="mr-2 mb-2 bg-lime-200">MERN</Badge>
