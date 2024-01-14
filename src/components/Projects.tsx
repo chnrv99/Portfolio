@@ -97,6 +97,7 @@ export default function Projects({ className, ...props }: CardProps) {
                     <div className="lg:flex lg:flex-row md:flex-col">
 
                         <div className="lg:container flex-auto ">
+<Link href='https://github.com/chnrv99/Flask-SIH' >
                             <Card className={cn("w-auto h-auto hover:bg-slate-900 hover:text-slate-200 transition-colors", className)} {...props}>
                                 <CardHeader>
                                     <div className="flex justify-between">
@@ -160,6 +161,7 @@ export default function Projects({ className, ...props }: CardProps) {
                                     {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod, obcaecati repellendus deserunt perferendis consequatur eaque animi illum maxime laudantium nam praesentium odit vitae dolorem.</p> */}
                                 </CardFooter>
                             </Card>
+</Link>
                         </div>
                         <br />
 
